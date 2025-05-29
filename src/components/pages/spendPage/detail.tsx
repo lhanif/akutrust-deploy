@@ -79,8 +79,7 @@ const DetailPage = () => {
                 sidebarOpen={sidebarOpen}
                 setSidebarOpen={setSidebarOpen}
                 activeTab={activeTab}
-                setActiveTab={setActiveTab}
-            />
+                setActiveTab={setActiveTab} isMobile={false}            />
 
             <div className='w-full'>
                 {/* mobile navbar */}
